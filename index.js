@@ -18,7 +18,7 @@ function appendKitten(name)
   return newarray
 }
 function prependKitten(name) {
-  var newarray = [kittens.unshift(name)]
+  var newarray = [kittens,...name]
   return kittens
 }
 function removeLastKitten() {
