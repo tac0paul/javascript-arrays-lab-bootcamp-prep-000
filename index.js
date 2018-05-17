@@ -22,8 +22,8 @@ function prependKitten(name) {
   return kittens2
 }
 function removeLastKitten() {
-  var newarray = kittens.pop()
-  return kittens
+  const kittensLast = sli
+  return kittensLast
 }
 function removeFirstKitten() {
   var newarray = kittens.shift()
