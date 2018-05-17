@@ -19,13 +19,13 @@ function appendKitten(name)
 }
 function prependKitten(name) {
   var newarray = kittens.unshift(name)
-  return newarray
+  return kittens
 }
 function removeLastKitten() {
   var newarray = kittens.pop()
-  return newarray 
+  return kittens
 }
 function removeFirstKitten() {
   var newarray = kittens.shift()
-  return newarray
+  return kittens
 }
