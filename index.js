@@ -21,5 +21,11 @@ function prependKitten(name) {
   var newarray = kittens.unshift(name)
   return newarray
 }
-
+function removeLastKitten() {
+  var newarray = kittens.pop()
+  return newarray 
+}
+function removeFirstKitten() {
+  var newarray = kittens.shift()
+  return newarray
 }
