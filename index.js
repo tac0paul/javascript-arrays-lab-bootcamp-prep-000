@@ -18,7 +18,7 @@ function appendKitten(name)
   return kittens2
 }
 function prependKitten(name) {
-  var newarray = [kittens...,name]
+  const kittens2 = [kittens...,name]
   return kittens
 }
 function removeLastKitten() {
