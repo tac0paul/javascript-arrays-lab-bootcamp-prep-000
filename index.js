@@ -17,3 +17,9 @@ function appendKitten(name)
   var newarray = kittens.push(name)
   return newarray
 }
+function prependKitten(name) {
+  var newarray = kittens.unshift(name)
+  return newarray
+}
+
+}
